@@ -1,0 +1,16 @@
+.footer {
+  position: relative;
+  padding-top: 50rem;
+  bottom: 0;
+  height: 4rem;
+  margin-top: 60rem;
+  width: 100%;
+  background-color: black;
+  color: white;
+  box-shadow: 0 0 0 1pt white;
+  border-color: linear-gradient(
+    90deg,
+    rgb(110, 94, 254) 0%,
+    rgba(73, 63, 252, 1) 100%
+  );
+}

@@ -1,0 +1,19 @@
+.card {
+  position: absolute;
+  background: white;
+  box-shadow: 0 0 0 1pt white;
+  border: 10px rgba(119, 83, 255, 255) solid;
+  border-radius: 1rem;
+  padding: 8rem;
+  border-color: linear-gradient(
+    90deg,
+    rgb(110, 94, 254) 0%,
+    rgba(73, 63, 252, 1) 100%
+  );
+  display: flex;
+  height: 60rem;
+  width: 60rem;
+  margin-top: 15rem;
+  margin-left: 18rem;
+  margin-right: 18rem;
+}

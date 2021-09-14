@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 436px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-top: 5%;
+  line-height: 1.2em;
+
+  color: #ffffff;
+
+  background: linear-gradient(
+    90deg,
+    #7352ff 0%,
+    #7552ff 0.01%,
+    #7352ff 0.02%,
+    #7f52ff 49.48%,
+    #7552ff 99.99%,
+    #7352ff 100%
+  );
+}
