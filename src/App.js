@@ -2,7 +2,8 @@ import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
 import Header from "./Components/Header/Header";
 import Portfolio from "./Components/Portfolio/Portfolio";
-import Footer from "./Components/Footer/Footer";
+
+import FooterBase from "./Components/Footer/FooterBase";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
           <Navbar />
           <Header />
           <Portfolio />
-          <Footer />
+          <FooterBase />
         </div>
       </div>
     </div>
